@@ -69,7 +69,7 @@ pipeline {
                     
                     sh '''
                         aws eks --region us-east-1 update-kubeconfig --name udacitycluster
-						kubectl config use-context arn:aws:eks:us-east-1:900569321428:cluster/udacitycluster
+						kubectl config use-context arn:aws:eks:us-east-1:026139439779:cluster/udacitycluster
 					'''
                     }
 
